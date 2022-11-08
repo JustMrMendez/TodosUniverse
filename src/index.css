@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-serif;
+}
+
+#root {
+  @apply flex min-h-screen flex-col justify-between;
+}
